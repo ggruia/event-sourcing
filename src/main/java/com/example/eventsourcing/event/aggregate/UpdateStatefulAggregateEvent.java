@@ -1,7 +1,7 @@
 package com.example.eventsourcing.event.aggregate;
 
 import com.example.eventsourcing.aggregate.Aggregate;
-import com.example.eventsourcing.aggregate.StatefulEvent;
+import com.example.eventsourcing.event.StatefulEvent;
 import com.example.eventsourcing.aggregate.StatefulAggregate;
 
 public abstract class UpdateStatefulAggregateEvent<A extends Aggregate & StatefulAggregate<S>, S extends Enum<S>> extends UpdateAggregateEvent<A> implements StatefulEvent<S> {
