@@ -1,0 +1,24 @@
+# IDEA
+.idea/
+out/
+output/
+**/build/
+
+**/gradle_build/
+*.iml
+**/*.iml
+*.ipr
+*.iws
+
+
+# Package Files
+**/build/libs/*.jar
+*.war
+*.ear
+target
+
+# Logging
+*.log
+*.log.gz
+*.log-*.gz
+logs/
